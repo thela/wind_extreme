@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Wind Speed</title>
+        <!-- loading local stylesheet .css file -->
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+
+    <body>
+        <div class="header">
+            <p style="width: 40%;">
+                <canvas id="italy_map" ></canvas>
+            </p>
+        </div>
+
+        <div id="navbar">
+        </div>
+
+        <div class="content">
+            <div class="sameline">
+                <p style="height: 80%; width: 100%;">
+                    <canvas id="windspeed" height="400"></canvas>
+                </p>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+                integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+                crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@^3"></script>
+        <script src="https://cdn.jsdelivr.net/npm/moment@^2"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@^1"></script>
+        <!--script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js"
+                integrity="sha512-GMGzUEevhWh8Tc/njS0bDpwgxdCJLQBWG3Z2Ct+JGOpVnEmjvNx6ts4v6A2XJf1HOrtOsfhv3hBKpK9kE5z8AQ=="
+                crossorigin="anonymous" referrerpolicy="no-referrer"></script-->
+
+        <script src="js/line_chart.js"></script>
+
+    </body>
+
+</html>
